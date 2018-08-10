@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Fast Register
-Plugin URI: http://customrayguns.com/
+Plugin URI: http://generalchicken.net/
 Description: 
-Version: 0.1
-Author: Jim Maguire
-Author URI: http://customrayguns.com/
+Version: 1.1
+Author: John Dee
+Author URI: http://generalchicken.net/
 */
 
 namespace FastRegister;
