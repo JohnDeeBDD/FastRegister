@@ -22,7 +22,7 @@ class IncomingEmailHandler{
 				$current_url = $current_url . $_SERVER['REQUEST_URI'];
 				$_SESSION['crg_login_redirect_url'] = $current_url;
 				$CreateAndSignonNewUserBasedOnEmail = new CreateAndSignonNewUserBasedOnEmail;
-				$CreateAndSignonNewUserBasedOnEmail->createAndSignonUser($email, "administrator");
+				$CreateAndSignonNewUserBasedOnEmail->createAndSignonUser($email, "subscriber");
 			}
 		}
 		if(email_exists($email)){
