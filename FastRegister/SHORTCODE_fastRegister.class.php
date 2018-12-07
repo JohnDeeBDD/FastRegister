@@ -16,7 +16,7 @@ class SHORTCODE_fastRegister{
 	}
 	
 	public function userIsLoggedIn(){
-		$output = "You are logged in as ";
+		$output = __("You are logged in as ", "fast-register");
 		return $output;
 	}
 	
